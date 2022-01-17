@@ -3,11 +3,11 @@ name: Node.js CI
 on:
   schedule:
     # every day at 2am
-    - cron: "0 2 * * *"
+#     - cron: "0 2 * * *"
   push:
-    branches: [master]
+#     branches: [master]
   pull_request:
-    branches: [master]
+#     branches: [master]
 
 jobs:
   audit:
